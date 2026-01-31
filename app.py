@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBwcSwsTH-uRU2xX7mF25btw_e1bDxjI1Q")
+genai.configure(api_key="-uRU2xX7mF25btw_e1bDxjI1Q")
 gemini_model = genai.GenerativeModel('models/gemini-2.0-flash')
 
 # Initialize emotion detection model
